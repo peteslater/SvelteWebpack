@@ -1,9 +1,9 @@
 import App from './App.svelte';
 
 const app = new App({
-	target: document.body,
+	target: document.querySelector('body'),
 	props: {
-		name: 'Svelte Webpack'
+		message: 'Press a button !!!'
 	}
 });
 

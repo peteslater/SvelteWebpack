@@ -62,3 +62,8 @@ typings/
 
 # Compiled app code
 public/index.js
+
+# Terraform
+**/.terraform
+
+dist/*

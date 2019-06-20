@@ -1,0 +1,25 @@
+{
+  "name": "svelte-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "webpack --mode=development --display-error-details",
+    "start": "node server.js",
+    "start-dev": "node public/server.js",
+    "dev": "webpack-dev-server --open"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "svelte": "^3.4.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "svelte-loader": "^2.13.4",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}
