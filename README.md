@@ -11,3 +11,7 @@ In order to properly configure your local environment prior to initialising and 
 Once the Terraform scripts have executed your AWS account will now have an Elastic Beanstalk environment in which the application can be deployed. The final step is to tell Elastic Beanstalk which version of the application to deploy onto your new Environment. This can be achieved on the CLI like so:
 
 `aws --region $(terraform output region) elasticbeanstalk update-environment --environment-name $(terraform output environment_name) --version-label $(terraform output application_version)`
+
+## Undeploying the application from AWS
+
+If you provisioned the application using `terraform apply` then you can remove it using `terraform destroy`.
