@@ -10,7 +10,7 @@
     "dev": "webpack-dev-server --open"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "svelte": "^3.4.4"
   },
   "devDependencies": {
